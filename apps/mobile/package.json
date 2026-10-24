@@ -1,0 +1,16 @@
+{
+  "name": "@bd-course/mobile",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Android Student Application (React Native + TypeScript) sharing @bd-course/shared and Supabase backend",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@bd-course/shared": "*",
+    "@supabase/supabase-js": "^2.47.10"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
